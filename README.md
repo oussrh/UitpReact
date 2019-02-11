@@ -25,8 +25,6 @@ Any web browser.
 
 ## Authors
 
-* **Matthieu Brouillard** - [brrrouillard](https://github.com/brrrouillard)
 * **Oussama Rhoni** - [oussrh](https://github.com/oussrh)
 * **François Héliodore** - [louis878](https://github.com/louis878)
 * **Nathan Gémis** - [nathangemis](https://github.com/nathangemis)
-* **Damian Szacun** - [damianszn](https://github.com/damianszn)
