@@ -1,0 +1,180 @@
+.transport-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    user-select: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.global-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 191, 171);
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    font-weight: bold;
+    transition: background-color 0.5s, opacity 0.5s;
+    box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+    margin-right: 20px;
+    opacity: 0.5;
+}
+
+.selectAll-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 191, 171);
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.5s;
+    box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+    margin-left: 20px;
+}
+
+.transports-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    justify-content: center;
+
+}
+
+.row-two {
+    display: flex;
+}
+
+.transport-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.vehicules-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    -webkit-box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+    box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+}
+
+.vehicules-icon img {
+    width: 50px;
+    height: 50px;
+    z-index: -1;
+}
+
+p b {
+    color: rgb(102, 191, 171);
+    transition: color 0.5s;
+}
+
+.text {
+    color: rgb(102, 191, 171);
+}
+
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.next-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 191, 171);
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: not-allowed;
+    font-weight: bold;
+    box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.prev-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 191, 171);
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+}
+
+.selected {
+    -webkit-box-shadow: 4px 3px 34px -3px rgb(239, 126, 50);
+    -moz-box-shadow: 4px 3px 34px -3px rgb(239, 126, 50);
+    box-shadow: 4px 3px 34px -3px rgb(239, 126, 50);
+}
+
+.avalaible {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.orange {
+    color: rgb(239, 126, 50);
+}
+
+.bgOrange {
+    background-color: rgb(239, 126, 50);
+}
+
+.icon {
+    fill: blue;
+    width: 150px;
+    height: 150px;
+}
+
+.test {
+    display: flex;
+}

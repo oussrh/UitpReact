@@ -1,0 +1,28 @@
+#root{
+  height: 100vh;
+  
+  }
+
+  body{overflow-x:hidden;}
+
+  a {text-decoration: none;}
+  
+  .blue-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(102, 191, 171);
+  color: white;
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 4px 3px 34px -3px rgba(0, 0, 0, 0.30);
+  border-style: none;
+  
+  }
+  
+  .blue{
+  color: rgb(102, 191, 171);
+  }

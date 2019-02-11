@@ -1,0 +1,117 @@
+/* .form-container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+} */
+
+@font-face {
+    font-family: "Open-Sans";
+    src: url("../font/OpenSans-Regular.ttf") format("truetype");
+   }
+html{
+    font-family: "Open-Sans", sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "question frequence comment motivation variation";
+    min-width: 80vw;
+    grid-template-columns:20vw 25vw 20vw 15vw ;
+    margin-bottom: 20px;
+    grid-column-gap: 20px;
+}
+
+input{
+    max-width: 250px;
+    height: 25px;
+    border: 1.5px solid rgb(102, 191, 171);
+    padding: 5px;
+}
+input:focus {
+    border: 1.5px solid rgb(239, 126, 50);
+    outline: none;
+}
+select{
+    border: 1.5px solid rgb(102, 191, 171);
+    padding: 5px;
+   
+}
+
+
+select:hover{
+    cursor: pointer;
+}
+select:focus {
+    border: 1.5px solid rgb(239, 126, 50);
+    outline: none;
+}
+
+.incident{
+    grid-area: question;
+   
+}
+
+.frequenceBox{
+    grid-area: frequence;
+}
+
+.frequence div{
+    margin-right: 20px;
+    min-width: 35px;
+    min-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+select.frequence{
+    margin-right: 20px;
+    min-width: 35px;
+    min-height: 35px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('./down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 85% 55%;
+    background-size: 7px;
+      
+}
+
+.comment{
+    grid-area:comment;
+    min-height: 25px;
+    border-radius: 2px;
+
+}
+
+select.motivation{
+    grid-area:motivation;
+    max-width: 250px;
+    max-height: 35px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('./down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 60%;
+    background-size: 7px;
+    border-radius: 2px;
+    
+}
+
+
+.footer-form{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+} 
+
+.next{
+    margin-left: 25px;
+}
+
+.prev{
+    margin-right: 25px;
+}
+
+
+.btn-hidden{
+    display: none;
+}
